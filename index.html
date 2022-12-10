@@ -2,10 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>wannisa - bootstrap portfolio</title>
     <link href="css/style.css" rel="stylesheet">
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
 </head>
 <body id="top-page">
     <!-- Navigation -->
@@ -14,10 +16,10 @@
      <nav class="navbar navbar-expand-lg fixed-top" id="sideNav">
         <a class="navbar-brand js-scroll-trigger" href="#page-top">
             <span class="navname"> Wannisa Khamsontha</span>
-            <img class="img-fluid img-profile rounded-circle" src="/images/IMG_1084.JPG" alt="picture of myself">
+            <span class=""><img class="img-fluid img-profile rounded-circle" src="/images/IMG_1084-min.JPG" alt="picture of myself"></span>
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation"></button>
-            <div class="collapse navbar-collaose">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collaose">
                 <ul class="navbar-nav">
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#work">Work</a></li>
@@ -31,6 +33,10 @@
     <header class="masterhead">
 
     </header>
+    <div class="container-fluid">
+        <section class="aboutme" id="about">
+
+        </section>
 
     <!-- work Section -->
    <!-- A section displaying your work in grid.
@@ -39,28 +45,67 @@
     The description should give a brief overview of the work.
     Each project will eventually link to your class project work! -->
     
-    <section class="worksection">
-
+    <section class="worksection" id="work">
+        <h2>Most recent work</h2>
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
+                <div class="card">
+                    <img src="..." class="card-img" alt="...">
+                        <div class="card-body">
+                            <a href="#" class="btn btn-primary"><h5 class="card-title">Card title</h5></a>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <a href="#" class="btn btn-primary"><h5 class="card-title">Card title</h5></a>
+                        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                        <img src="..." class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <a href="#" class="btn btn-primary"><h5 class="card-title">Card title</h5></a>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- skills section -->
-    <section class="skills">
+    <section class="skills" id="skills">
+        <h2 class="subheading">Skills & Programming Languages</h2>
+        <ul class="list-inline dev-icons">
+            <li class="list-inline-item"><i class="fab fa-html5"></i></li>
+            <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
+
+        </ul>
 
     </section>
 
     <!-- An about / contact section 
     email phone number add-->
-    <section>
+    <section class="contact-section" id="contact" >
         
     </section>
 
     <!-- A footer section 
     linking github -->
     <footer>
+        <div class="social-icons">
+            <a class="social-icon" href="https://github.com/lisaevermore"><i class="fa-brands fa-github"></i></a>
+            <a class="social-icon" href="https://www.linkedin.com/in/wannisa-khamsontha-a3346415b/"><i class="fab fa-linkedin-in"></i></a>
+        </div>
         <div class="container"><p>&copy; Your Website 2020. All Rights Reserved.</p></div>
     </footer>
 
 
-    
+    </div>
 </body>
 </html>
