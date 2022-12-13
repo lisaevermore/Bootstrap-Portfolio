@@ -241,6 +241,7 @@ img{
 
 
 /* contact 
+
 .content{
   flex-wrap: wrap;
 }
@@ -265,8 +266,12 @@ img{
   align-items: center;
   }
 
-
 */
+
+.contact-section{
+  padding: 100px 0;
+  position: relative;
+}
 
 
 
